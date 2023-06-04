@@ -17,12 +17,10 @@ data = fh.read()
 #local onde sera armazenado os dados do arquivo
 local_dest = "/home/temp.txt"
 
-
 #armazena os dados no arquivo da maquina mestre
 with open(local_dest, "wb") as local_file:
     local_file.write(data)
  
-
 #recupera o arquivo salvo na maquina e o pega para realizar verificacoes
 arq = open("/home/temp.txt", "r")
 conteudo = arq.read()
@@ -45,12 +43,10 @@ else:
   #fecha o arquivo fh
   fh.close()
 
-
   #abrindo o arquivo que contem a ordem correta
   arq = open("/home/codigo.py", 'rb')
   arqC = arq.read()
   arquivoC = BytesIO(arqC)
-
 
   #realiza a escrita dos dados na ordem correta no arquivo da maquina do cluster
   opener = urllib.request.build_opener(SMBHandler)
