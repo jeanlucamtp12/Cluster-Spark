@@ -1,11 +1,5 @@
-from pyspark.sql import SparkSession
-import smbclient
 import urllib
 from smb.SMBHandler import SMBHandler
-import base64
-import shutil
-from smb.SMBConnection import SMBConnection
-import subprocess
 from io import BytesIO
 import time
 
