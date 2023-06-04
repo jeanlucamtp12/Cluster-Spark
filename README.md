@@ -64,7 +64,7 @@ Seguindo esses passos, já será possível acessar os serviços do Spark por:
 
 Sendo o primeiro responsável por abrir a conexão mestre e o segundo a conexão dos nós de trabalho. É possível verificar se o serviço foi iniciado corretamente acessando: <http://localhost:8080/>[ ](http://localhost:8080/). Caso tenha iniciado corretamente, você verá a tela do Spark apresentada abaixo:
 
-![Maquinas Conectadas](/medias/maquinasconectadas)
+![Maquinas Conectadas](/medias/maquinasconectadas.png)
 
 ##  **Samba e PySpark**
 
