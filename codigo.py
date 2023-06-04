@@ -7,7 +7,11 @@ import shutil
 from smb.SMBConnection import SMBConnection
 import subprocess
 from io import BytesIO
+import time
 
+
+#adicionando função time, descomente caso queira utiliza-la
+#start_time = time.time()
 
 #pega os dados do arquivo conectado por samba
 opener = urllib.request.build_opener(SMBHandler)
@@ -56,3 +60,9 @@ else:
   fh2.close()
 
   print("Alteracao Realizada!")
+
+
+#função time, descomente caso queira utiliza-la
+#end_time = time.time()
+#final = end_time - start_time 
+#print ("O tempo de processamento foi de: ", final, " segundos")
