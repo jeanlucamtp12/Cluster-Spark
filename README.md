@@ -36,7 +36,7 @@ Para instalar o Spark é necessário possuir o Java e o Scala instalados em amba
 
 Para instalar o Spark, pode se usar os seguintes comandos para baixa-lo, extraí-lo e movê lo ao diretório /opt/spark:
 
->wget [**https://dlcdn.apache.org/spark/spark-3.4.0/spark-3.4.0-bin-hadoop3.tgz**]
+>wget **https://dlcdn.apache.org/spark/spark-3.4.0/spark-3.4.0-bin-hadoop3.tgz**
 
 >tar -xvzf spark-3.4.0-bin-hadoop3.tgz
 
