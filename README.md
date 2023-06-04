@@ -107,5 +107,6 @@ Ao realizar todos os passos anteriores, será possível iniciar o PySpark e abri
 
 > pyspark
 
-Possibilitando o uso da aplicação de ordenação de arquivos. A seguir é apresentado um vídeo com o funcionamento da aplicação:
+
+Seguindo esses passos, será possivel realizar o uso da aplicação de ordenação de arquivos. O seguinte link apresenta um vídeo com o funcionamento da aplicação: https://github.com/jeanlucamtp12/Cluster-Spark/blob/main/medias/video.mp4
 
