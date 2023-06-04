@@ -16,9 +16,9 @@ O virtualbox pode ser baixado por aqui: <https://www.virtualbox.org/>
 
 
 
-No cluster Spark proposto foram projetadas duas máquinas virtuais, onde a primeira delas utiliza o ubuntu server 20.4 LTS: <https://ubuntu.com/download/server>[ ](https://ubuntu.com/download/server), sendo esta a máquina mestre do servidor. 
+No cluster Spark proposto foram projetadas duas máquinas virtuais, onde a primeira delas utiliza o ubuntu server 20.04 LTS: <https://ubuntu.com/download/server>[ ](https://ubuntu.com/download/server), sendo esta a máquina mestre do servidor. 
 
-Já a segunda máquina utiliza o Lubuntu 20.4 LTS como sistema operacional: <https://lubuntu.me/focal-released/>[ ](https://lubuntu.me/focal-released/). A escolha dos sistemas operacionais ficam a cargo do usuário.
+Já a segunda máquina utiliza o Lubuntu 20.04 LTS como sistema operacional: <https://lubuntu.me/focal-released/>[ ](https://lubuntu.me/focal-released/). A escolha dos sistemas operacionais ficam a cargo do usuário.
 
 Logo após criar as máquinas virtuais e instalar os sistemas operacionais, será necessário realizar a instalação dos softwares que serão necessários para construir o cluster.
 
