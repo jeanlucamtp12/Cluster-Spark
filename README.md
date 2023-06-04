@@ -76,7 +76,12 @@ Após a instalação é necessário realizar algumas configurações em ambas as
 
 > sudo nano /etc/samba/smb.conf
 
-Dentro do arquivo, você pode definir suas configurações de compartilhamento de diretórios e permissões. Por exemplo, você pode adicionar o seguinte bloco no final do arquivo para compartilhar uma pasta chamada "compartilhamento". No código disponibilizado o caminho escolhido para a pasta compartilhada, foi a pasta “home”, tanto na máquina mestre quanto na outra máquina. Além disso os arquivos que serão escritos e copiados também foram colocados nessa pasta.
+Dentro do arquivo, você pode definir suas configurações de compartilhamento de diretórios e permissões. Por exemplo, você pode adicionar o seguinte bloco no final do arquivo para compartilhar uma pasta chamada "compartilhamento". 
+
+![](/medias/1.png)
+
+
+No código disponibilizado o caminho escolhido para a pasta compartilhada, foi a pasta “home”, tanto na máquina mestre quanto na outra máquina. Além disso os arquivos que serão escritos e copiados também foram colocados nessa pasta.
 
 Salve o arquivo e saia do editor de texto e reinicie o serviço Samba:
 
