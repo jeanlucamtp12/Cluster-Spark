@@ -12,6 +12,8 @@ Este tutorial apresenta os passos necessários para criar um cluster utilizando 
 
 O virtualbox pode ser baixado por aqui: <https://www.virtualbox.org/>
 
+**Obs:** Para esse projeto, as redes das maquinas virtuais foram configuradas no modo Bridge.
+
 ##  **Sistema operacional das máquinas virtuais**
 
 
